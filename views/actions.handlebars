@@ -1,0 +1,20 @@
+ 
+<div class="row">
+<h1> Names Greeted</h1>
+<table>
+    <tr> 
+        
+        <th>Name</th>
+    </tr>
+    {{#each actions}}
+    <tr>
+        <td><a href="/count/{{namesgreeted}}">  {{namesgreeted}}</a></td>
+      
+        
+    </tr>
+    {{/each}}
+</table>
+<form action="/back" method="POST">
+<button class="back" name="BackButton" type="submit" onclick="" value ="clear">back</button>
+</form>
+</div>

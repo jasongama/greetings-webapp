@@ -1,0 +1,90 @@
+:root {
+    --primary: #ddd;
+    --dark: #333;
+    --light: #fff;
+    --shadow: 0 1px 5px rgba(104,104,104, 0.8);
+    }
+    body{
+      background-color: skyblue;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+h1{
+     border: 5px solid blue;
+     width: 200px;
+     margin: 60px auto;
+    text-align: center;
+    font-weight: bold;
+  
+}
+
+.col-12 {
+    width: 96%;
+    text-align: center;
+    margin: 30px auto;
+    font-size: 120%;
+    font-weight: bold;
+  
+  }
+                            
+  .col-11 {
+    width: 96%;
+    text-align: center;  
+    margin: auto;
+    padding: auto;
+    font-size: 120%;
+    font-weight: bold;
+
+  }
+
+.col-10{
+  width: 96%;
+  text-align: center;  
+  margin:  auto;
+  padding: auto;
+  font-weight: bold;
+}
+.col-9{
+  width: 96%;
+  text-align: center;  
+  margin:  auto;
+  padding: auto;
+  font-size: 120%;
+  font-weight: bold;
+
+}
+
+.warning{
+ color: crimson;
+
+ margin-bottom: 60em;
+ 
+}
+.greetButton{
+  margin: 20px auto;
+}
+.names{
+  font-size: 120%;
+  text-align: center;  
+  margin-top:  1em;
+  padding: auto;
+}
+.error{
+  font-size: 120%;
+  text-align: center;  
+  margin:  auto;
+  padding: auto;
+  color: crimson;
+  font-weight: bold;
+  
+}
+
+input .reset{
+  margin: 20em auto;
+}
+
+.greet{
+  text-align: center;  
+  margin: 2em;
+  padding: auto;
+}

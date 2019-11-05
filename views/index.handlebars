@@ -1,0 +1,40 @@
+<div class="row">
+<form action="/greeted" method="post">
+    <h1>Greetings</h1>
+    <div class="error">
+      <span> {{message}}</span>
+    </div>
+    <div class="col-11">Names
+        <input type="text" name="fname" pattern="[A-Za-z//s]*"placeholder="Enter your name"  value="" id="field_1">
+    </div>
+    <div class="col-12">
+        <input type="radio" class="itemTypeRadio" name="greet" value="English" id="tglEng">English
+        <input type="radio" name="greet" class="itemTypeRadio" value="IsiZulu" id="tglIsz"> Isizulu
+        <input type="radio" name="greet" class="itemTypeRadio" value="IsiXhosa" id="tglIsx"> IsiXhosa
+    </div>
+    
+    <div class="col-10">
+         <form action="greetButton" method="post">
+        <button class="greetButton" type="submit" name="greetme" value="greetme" id="greetId"> greet me</button>
+        </form>
+       <form action="/resetBtn" method="post">
+        <input class="resetBtn" name="resetButton" type="submit" onclick="" value ="clear"> 
+        </form>
+        <div class="names">{{namesGreet}}</div>
+     <div class ="greet">
+        <a href="greeted" class="greeted">Names greeted:</a>
+         </div>
+      
+    <div class="col-9">
+        <p class="">
+            <strong> Counter : &nbsp;
+                <span class="count">{{counting}}</span>
+               
+            </strong>
+           
+        </p>
+    </div>
+   
+</form>
+
+</div>
